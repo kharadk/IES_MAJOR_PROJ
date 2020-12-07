@@ -20,11 +20,12 @@ public class CoGenDlyBatch {
 	@Autowired
 	EDRepo edRepo;
 
-	public String PreProceesor(Date batchStartDate, Date batchStartTime,String caseId) {
+	public String PreProceesor(Date batchStartDate, Date batchStartTime) {
 		return null;
 	}
 
-	public CoTriggers start(String status) {
+	public CoTriggers start(String status,String caseId) {
+		
 		return null;
 
 	}
