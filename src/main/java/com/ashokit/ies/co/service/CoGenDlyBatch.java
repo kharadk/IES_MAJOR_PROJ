@@ -24,9 +24,10 @@ public class CoGenDlyBatch {
 		return null;
 	}
 
-	public CoTriggers start(String status) {
-		
-		return null;
+	public List<CoTriggers> start(String status) {
+		List<CoTriggers> pendingTriggers = coTriggerRepo.findByTrgStatus(status);
+
+		return pendingTriggers;
 
 	}
 
