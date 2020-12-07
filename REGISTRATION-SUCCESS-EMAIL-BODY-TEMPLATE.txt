@@ -1,0 +1,24 @@
+Hi  {FNAME}, {LNAME} ,
+<br/>
+
+</br> Welcome to IES Family,
+   
+    Congratulation your successfully register as {Role} for IES Application.<br/>
+   Please, check your credential below,
+<br/>
+
+  
+  UserName : {username} </br>
+  </br>
+  
+  Passwd: {passwd} </br>
+  
+<br/>
+
+<a href='http://localhost:8585'>
+
+Click Here To Login </a> <br/>
+<br/>
+
+Thanks & Regards,<br/>
+IES Team.<br/>
