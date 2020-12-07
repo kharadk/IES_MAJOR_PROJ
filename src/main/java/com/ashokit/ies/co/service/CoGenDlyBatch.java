@@ -24,7 +24,7 @@ public class CoGenDlyBatch {
 		return null;
 	}
 
-	public CoTriggers start(String status,String caseId) {
+	public CoTriggers start(String status) {
 		
 		return null;
 
